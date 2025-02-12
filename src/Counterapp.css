@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   font-family: 'Poppins', sans-serif;
   background-color:lightgray;
@@ -55,3 +56,62 @@ button:hover {
 button:active {
   transform: scale(0.95);
 }
+=======
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color:lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1), -5px -5px 15px rgba(255, 255, 255, 0.7);
+  transition: 0.3s ease-in-out;
+}
+
+.container:hover {
+  transform: translateY(-3px);
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: orange;
+  text-align: center;
+  padding: 10px;
+  background-color: lightblue;
+  border-radius: 8px;
+  border: 1px solid #4a90e2;
+  font-style: italic;
+}
+
+button {
+  background: linear-gradient(135deg, #4a90e2, #357ae8);
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+button:hover {
+  background: linear-gradient(135deg, #357ae8, #276bdb);
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+>>>>>>> 0235ccb (Initial commit for GitHub Pages)
